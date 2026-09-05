@@ -1,0 +1,3 @@
+# app-ads.txt for APP2GO — https://oskeriy.github.io
+# Specification: IAB Tech Lab app-ads.txt v1.0
+google.com, pub-2581505074132290, DIRECT, f08c47fec0942fa0

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>APP2GO</title>
+<meta name="description" content="APP2GO — mobile apps for Android. Developer of Magnifier.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --surface: #f6f7f9;
+    --border: #e3e6ea;
+    --text: #16181d;
+    --muted: #5c636e;
+    --accent: #2f6df6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --surface: #171a21;
+      --border: #262b34;
+      --text: #e8eaed;
+      --muted: #9aa2ae;
+      --accent: #6f9dff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 64px 24px 80px;
+  }
+  header { margin-bottom: 48px; }
+  h1 {
+    font-size: 32px;
+    letter-spacing: -0.02em;
+    margin: 0 0 8px;
+  }
+  .tagline { color: var(--muted); margin: 0; }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 40px 0 14px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 22px;
+  }
+  .card h3 { margin: 0 0 6px; font-size: 18px; }
+  .card p { margin: 0; color: var(--muted); }
+  ul.links { list-style: none; padding: 0; margin: 0; }
+  ul.links li { padding: 10px 0; border-bottom: 1px solid var(--border); }
+  ul.links li:last-child { border-bottom: 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>APP2GO</h1>
+      <p class="tagline">Mobile apps for Android.</p>
+    </header>
+
+    <h2>Apps</h2>
+    <div class="card">
+      <h3>Magnifier</h3>
+      <p>
+        A magnifying glass for your phone: zoom in on small print, turn on the
+        light, freeze the image, and read text aloud from the camera — all
+        processed on your device.
+      </p>
+    </div>
+
+    <h2>Legal</h2>
+    <ul class="links">
+      <li>
+        <a href="https://oskeriy.github.io/projects_privacy_policy/">Privacy Policy</a>
+      </li>
+      <li>
+        <a href="/app-ads.txt">app-ads.txt</a>
+      </li>
+    </ul>
+
+    <h2>Contact</h2>
+    <ul class="links">
+      <!-- Replace with the support address you list on Google Play. -->
+      <li><a href="mailto:CONTACT@EXAMPLE.COM">CONTACT@EXAMPLE.COM</a></li>
+    </ul>
+
+    <footer>
+      &copy; 2026 APP2GO
+    </footer>
+  </div>
+</body>
+</html>
