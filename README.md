@@ -13,6 +13,7 @@ the only place Google AdMob's crawler looks:
 | -------------- | -------------------------------------------------------------- |
 | `app-ads.txt`  | AdMob publisher authorization (IAB Tech Lab app-ads.txt v1.0).  |
 | `index.html`   | Landing page — the developer website listed on Google Play.     |
+| `terms/index.html` | Terms of Service for Magnifier, at <https://oskeriy.github.io/terms/>. |
 | `.nojekyll`    | Serve files verbatim, skipping the Jekyll build step.           |
 
 ## Notes
